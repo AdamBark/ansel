@@ -134,7 +134,7 @@ jobs:
       - name: Install Python lensfun module
         # shell: msys2 {0}
         run: |
-          pip install lensfun || echo "lensfun not available via pip"
+          pip install lensfunpy || echo "lensfun not available via pip"
       - name: Update lensfun data
         run: |
           lensfun-update-data
